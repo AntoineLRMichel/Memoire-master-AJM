@@ -1,0 +1,247 @@
+<style>
+
+.quizzContainer
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  font-size: 20px;
+  font-family: Raleway;
+}
+.titreQ
+{
+  margin-top: 25px;
+}
+
+.texteQ
+{
+  margin-bottom: 2px;
+  margin-top:2px;
+  background-color: ;
+  border-radius: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: left;
+}
+
+button
+{
+  font-size: 20px;
+}
+
+.choixR
+{
+  width: 100%;
+  height: 10%;
+  border: 0;
+  margin-bottom: 1px;
+  margin-top:1px;
+  background-color: #FFEEBA;
+  border-radius: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: left;
+  border-color: #FFEEBA;
+  padding-left: 15px;
+}
+
+.choixR:hover
+{
+  background-color: #FFC628;
+  transform: scale(1.02);
+}
+
+.blocR
+{
+  margin-bottom: 15px;
+  margin-top: 5px;
+  background-color: #FFEEBA;
+  border-radius: 1px;
+  border-top: solid inherit 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.bufferTransitionRQ
+{
+  min-height: 0.75em;
+  line-height: 0.75em;
+}
+
+iframe
+{
+  margin-bottom: 10px;
+  margin-top:15px;
+  background-color: inherit;
+  border: solid;
+  border-color: #FFC628;
+}
+
+.blocBilan
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: #FFEEBA;
+  border-radius: 1px;
+  border-top: solid inherit 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.appelBlocBilanA
+{
+  width: 100%;
+  height: 10%;
+  border: 0;
+  margin-bottom: 1px;
+  margin-top:1px;
+  background-color: #FFEEBA;
+  border-radius: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: left;
+  border-color: #FFEEBA;
+  padding-left: 15px;
+}
+
+.appelBlocBilanA:hover
+{
+  background-color: #FFC628;
+  transform: scale(1.02);
+}
+
+.blocBilanA
+
+</style>
+
+<div class="quizzContainer">
+
+<!-- bloc questions et choix de réponses du quiz--->
+
+<div class="titreQ" id="titreQ0"><h3>1. </h3></div><div class="texteQ" id="texteQ0"></div><button class="choixR" id="choixR011" onclick="choixR(0, 1, 1)"></button><br><button class="choixR" id="choixR011" onclick="choixR(0, 1, 1)"></button><br><button class="choixR" id="choixR012" onclick="choixR(0, 1, 2)"></button><br><div class="blocR" id="blocR0"></div>
+<div class="titreQ" id="titreQ1"><h3>2. </h3></div><div class="texteQ" id="texteQ1"></div><button class="choixR" id="choixR111" onclick="choixR(1, 1, 1)"></button><br><button class="choixR" id="choixR111" onclick="choixR(1, 1, 1)"></button><br><button class="choixR" id="choixR112" onclick="choixR(1, 1, 2)"></button><br><div class="blocR" id="blocR1"></div>
+<div class="titreQ" id="titreQ2"><h3>3. </h3></div><div class="texteQ" id="texteQ2"></div><button class="choixR" id="choixR211" onclick="choixR(2, 1, 1)"></button><br><button class="choixR" id="choixR211" onclick="choixR(2, 1, 1)"></button><br><button class="choixR" id="choixR212" onclick="choixR(2, 1, 2)"></button><br><div class="blocR" id="blocR2"></div>
+<div class="titreQ" id="titreQ3"><h3>4. </h3></div><div class="texteQ" id="texteQ3"></div><button class="choixR" id="choixR311" onclick="choixR(3, 1, 1)"></button><br><button class="choixR" id="choixR311" onclick="choixR(3, 1, 1)"></button><br><button class="choixR" id="choixR312" onclick="choixR(3, 1, 2)"></button><br><div class="blocR" id="blocR3"></div>
+<div class="titreQ" id="titreQ4"><h3>5. </h3></div><div class="texteQ" id="texteQ4"></div><button class="choixR" id="choixR411" onclick="choixR(4, 1, 1)"></button><br><button class="choixR" id="choixR411" onclick="choixR(4, 1, 1)"></button><br><button class="choixR" id="choixR412" onclick="choixR(4, 1, 2)"></button><br><div class="blocR" id="blocR4"></div>
+<div class="titreQ" id="titreQ5"><h3>6. </h3></div><div class="texteQ" id="texteQ5"></div><button class="choixR" id="choixR511" onclick="choixR(5, 1, 1)"></button><br><button class="choixR" id="choixR511" onclick="choixR(5, 1, 1)"></button><br><button class="choixR" id="choixR512" onclick="choixR(5, 1, 2)"></button><br><div class="blocR" id="blocR5"></div>
+<div class="titreQ" id="titreQ6"><h3>7. </h3></div><div class="texteQ" id="texteQ6"></div><button class="choixR" id="choixR611" onclick="choixR(6, 1, 1)"></button><br><button class="choixR" id="choixR611" onclick="choixR(6, 1, 1)"></button><br><button class="choixR" id="choixR612" onclick="choixR(6, 1, 2)"></button><br><div class="blocR" id="blocR6"></div>
+<div class="titreQ" id="titreQ7"><h3>8. </h3></div><div class="texteQ" id="texteQ7"></div><button class="choixR" id="choixR711" onclick="choixR(7, 1, 1)"></button><br><button class="choixR" id="choixR711" onclick="choixR(7, 1, 1)"></button><br><button class="choixR" id="choixR712" onclick="choixR(7, 1, 2)"></button><br><div class="blocR" id="blocR7"></div>
+<div class="titreQ" id="titreQ8"><h3>9. </h3></div><div class="texteQ" id="texteQ8"></div><button class="choixR" id="choixR811" onclick="choixR(8, 1, 1)"></button><br><button class="choixR" id="choixR811" onclick="choixR(8, 1, 1)"></button><br><button class="choixR" id="choixR812" onclick="choixR(8, 1, 2)"></button><br><div class="blocR" id="blocR8"></div>
+<div class="titreQ" id="titreQ9"><h3>10. </h3></div><div class="texteQ" id="texteQ9"></div><button class="choixR" id="choixR911" onclick="choixR(9, 1, 1)"></button><br><button class="choixR" id="choixR911" onclick="choixR(9, 1, 1)"></button><br><button class="choixR" id="choixR912" onclick="choixR(9, 1, 2)"></button><br><div class="blocR" id="blocR9"></div>
+<div class="titreQ" id="titreQ10"><h3>11. </h3></div><div class="texteQ" id="texteQ10"></div><button class="choixR" id="choixR1011" onclick="choixR(10, 1, 1)"></button><br><button class="choixR" id="choixR1011" onclick="choixR(10, 1, 1)"></button><br><button class="choixR" id="choixR1012" onclick="choixR(10, 1, 2)"></button><br><div class="blocR" id="blocR10"></div>
+
+<!-- fin questions --->
+<br>
+<button class="appelBlocBilanA" id="appelBlocBilanA" onclick="appelBlocBilan()">Je veux connaître mon score!</button>
+<div class="blocBilan" id="blocBilanA"></div>
+</div>
+<div class="bufferTransitionRQ"></div>
+<div class="bufferTransitionRQ"></div>
+
+
+<script>
+
+//variables de nombre de questions répondues et répondues justes, ne pas toucher!
+var compteurR = 0;
+var compteurRJ = 0;
+var nombreQ = document.querySelectorAll(".titreQ").length;
+//fin questions répondues
+
+/* Base de données des réponses.
+Dans l'ordre, il y a:
+question: x, ----> numéro de la question, à partir de 0
+txtreponse: "Explications", ------> texte à afficher (si réponse juste)
+nombreClick: 0, ---------> un nombre de clics, pour bloquer plusieurs tentatives de réponse (ne pas toucher).
+*/
+
+var dataBaseQuiz =
+[
+//  Bloc pour le texte des questions. Copier-coller ici depuis excel
+
+{question:0, txtreponse: "", nombreClick: 0, },
+{question:1, txtreponse: "", nombreClick: 0, },
+{question:2, txtreponse: "", nombreClick: 0, },
+{question:3, txtreponse: "", nombreClick: 0, },
+{question:4, txtreponse: "", nombreClick: 0, },
+{question:5, txtreponse: "", nombreClick: 0, },
+{question:6, txtreponse: "", nombreClick: 0, },
+{question:7, txtreponse: "", nombreClick: 0, },
+{question:8, txtreponse: "", nombreClick: 0, },
+{question:9, txtreponse: "", nombreClick: 0, },
+{question:10, txtreponse: "", nombreClick: 0, },
+
+// fermeture de l'objet texte
+];
+//
+
+
+
+
+//script question - réponses
+//fonction de validation de la réponse correcte ou fausse. Test si b est égal à 0.
+// Si la réponse est juste: indique le texte d'explication; modifie le style de bouton de réponse (en vert), incrémente les compteurs de réponses et de réponses justes de 1 et incréemnte nombreClick de la question de 1.
+// Si la réponse est fausse: indique le texte d'explication; modifie le style de bouton de réponse (en rouge) et de la bonne réponse en vert, incrémente le compteur de réponses et incréemnte nombreClick de la question de 1.
+
+function choixR(a, b, c)
+{
+    if (dataBaseQuiz[a].nombreClick === 0)
+          {
+          if (b === 0)
+            {
+            document.querySelectorAll(".blocR")[a].innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "<b>C'est juste!</b> " + dataBaseQuiz[a].txtreponse + "<div class='bufferTransitionRQ height='20em'></div>";
+            compteurRJ++;
+            compteurR++;
+            var repJvert =  document.getElementById("choixR" + a + "0");
+            repJvert.style.background = '#007500';
+            repJvert.style.color = 'white';
+            dataBaseQuiz[a].nombreClick++;
+            }
+          else
+            {
+            document.querySelectorAll(".blocR")[a].innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "<b>Mauvaise réponse...</b> " + dataBaseQuiz[a].txtreponse + "<div class='bufferTransitionRQ'></div>";
+            var repFrouge =  document.getElementById("choixR"+ a + "1" + c);
+            repFrouge.style.background = '#FFD9D9';
+            repFrouge.style.color = '#CD3632';
+            var repJvert =  document.getElementById("choixR" + a + "0");
+            repJvert.style.background = '#007500';
+            repJvert.style.color = 'white';
+            compteurR++;
+            dataBaseQuiz[a].nombreClick++;
+            }
+          }
+    else {;}
+    dataBaseQuiz[a].nombreClick++;
+}
+
+
+
+//script résultats des courses
+
+function appelBlocBilan()
+{
+  if ((compteurR === nombreQ))
+      {
+            if (compteurRJ === nombreQ)
+              {document.getElementById("blocBilanA").innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "Ton résultat: " + compteurRJ + " réponses correctes sur " + compteurR + ". Wahou, bravo! L'incarnation de la perfection!" + "<div class='bufferTransitionRQ'></div>";}
+            else if (compteurRJ === (nombreQ - 1))
+              {document.getElementById("blocBilanA").innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "Ton résultat: " + compteurRJ + " réponses correctes sur " + compteurR + ". C'est presque tout juste!" + "<div class='bufferTransitionRQ'></div>";}
+              else if (compteurRJ >= 5)
+                {document.getElementById("blocBilanA").innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "Ton résultat: " + compteurRJ + " réponses correctes sur " + compteurR + ". Pas mal!" + "<div class='bufferTransitionRQ'></div>";}
+                else if (compteurRJ > 1)
+                  {document.getElementById("blocBilanA").innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "Ton résultat: " + compteurRJ + " réponses correctes sur " + compteurR + ". Cela reste un bon score, parce qu'il y avait beaucoup de questions difficiles." + "<div class='bufferTransitionRQ'></div>";}
+            else if (compteurRJ === 1)
+              {document.getElementById("blocBilanA").innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "Ton résultat: " + compteurRJ + " réponse correcte sur " + compteurR + ". Une réponse correcte, c'est déjà quelque chose..." + "<div class='bufferTransitionRQ'></div>";}
+            else (compteurRJ === 0)
+              {document.getElementById("blocBilanA").innerHTML = "<div class='bufferTransitionRQ height='20em'></div>" + "Ton résultat: " + compteurRJ + " réponse correcte sur " + compteurR + ". Oulala, heureusement que ce quiz n'est pas noté." + "<div class='bufferTransitionRQ'></div>";}
+      }
+  else
+      {
+            document.getElementById("blocBilanA").innerHTML = "Il faut répondre à toutes les questions pour connaître le score." + "<div class='bufferTransitionRQ'></div>";
+      }
+}
+//fin résultats des courses
+
+
+</script>
